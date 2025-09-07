@@ -1,0 +1,10 @@
+[project]
+name = "leetcoach-lite"
+version = "0.1.0"
+description = "Spaced-repetition CLI for coding interview practice"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["typer", "rich"]
+
+[project.scripts]
+leetcoach = "leetcoach.cli:main"
