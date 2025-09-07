@@ -145,7 +145,7 @@ Database path: `~/.leetcoach.db`
 
 ---
 
-## 🧪 Testing & CI
+## Testing & CI
 ```bash
 pytest -q
 ```
@@ -157,7 +157,7 @@ The repo includes a **GitHub Actions** workflow (`.github/workflows/ci.yml`) tha
 
 ---
 
-## 🛣️ Roadmap (Good first issues)
+## Roadmap (Good first issues)
 - [ ] **Streamlit** dashboard for the due queue and stats.
 - [ ] **FastAPI** endpoints: `GET /due`, `POST /review`, `POST /add`.
 - [ ] Import and store **LeetCode links**.
@@ -168,9 +168,6 @@ The repo includes a **GitHub Actions** workflow (`.github/workflows/ci.yml`) tha
 
 ---
 
-## 🤝 Contributing
-PRs welcome! Please open an issue first for bigger changes.  
-Before pushing, run tests locally:
 
 ```bash
 pytest -q
@@ -178,7 +175,7 @@ pytest -q
 
 ---
 
-## 📸 Optional: Add a GIF Demo
+## GIF Demo
 Record a short terminal session with asciinema or a screen recorder, export a GIF, and drop it under a `docs/` folder. Then embed it here:
 
 ```markdown
@@ -187,10 +184,10 @@ Record a short terminal session with asciinema or a screen recorder, export a GI
 
 ---
 
-## 📜 License
-MIT © 2025 Emmanuel Akwasi Opoku
+## License
+© 2025 Emmanuel Akwasi Opoku
 
 ---
 
-## 🙌 Credits
+## Credits
 Built with **Python**, **Typer**, **Rich**, and **SQLite**.
